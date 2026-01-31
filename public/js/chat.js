@@ -113,13 +113,15 @@ class ChatInterface {
   showTypingIndicator() {
     const indicator = document.createElement('div');
     indicator.className = 'message bot-message typing-message';
-    indicator.innerHTML = `
-      <span class="typing-indicator">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    `;
+
+    // Create typing indicator using DOM API (safer than innerHTML)
+    const typingSpan = document.createElement('span');
+    typingSpan.className = 'typing-indicator';
+    for (let i = 0; i < 3; i++) {
+      typingSpan.appendChild(document.createElement('span'));
+    }
+    indicator.appendChild(typingSpan);
+
     this.chatWindow.appendChild(indicator);
     this.scrollToBottom();
     return indicator;

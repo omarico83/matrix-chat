@@ -21,12 +21,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.crt-flicker').style.display = 'none';
   }
 
-  // Expose for debugging
-  window.matrixChat = {
-    matrixRain,
-    chat,
-    config: CONFIG,
-  };
-
   console.log('[MATRIX] Chat ready');
 });
