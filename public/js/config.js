@@ -3,18 +3,18 @@
  * Edit this file to configure the Giphy API and other settings
  */
 const CONFIG = {
-  // Smiling GIF URLs
+  // Smiling GIF URLs (using Giphy's i.giphy.com for better compatibility)
   SMILING_GIFS: [
-    'https://media.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif',
-    'https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif',
-    'https://media.giphy.com/media/3oEjHV0z8S7WM4MwnK/giphy.gif',
-    'https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif',
-    'https://media.giphy.com/media/3o7TKu8RvQuomFfUUU/giphy.gif',
-    'https://media.giphy.com/media/l4pTdcifPZLpDjL1e/giphy.gif',
-    'https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif',
-    'https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif',
-    'https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif',
-    'https://media.giphy.com/media/l0HlSnvb3D3Me5HsA/giphy.gif',
+    'https://i.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif',
+    'https://i.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif',
+    'https://i.giphy.com/media/3oEjHV0z8S7WM4MwnK/giphy.gif',
+    'https://i.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif',
+    'https://i.giphy.com/media/3o7TKu8RvQuomFfUUU/giphy.gif',
+    'https://i.giphy.com/media/l4pTdcifPZLpDjL1e/giphy.gif',
+    'https://i.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif',
+    'https://i.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif',
+    'https://i.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif',
+    'https://i.giphy.com/media/l0HlSnvb3D3Me5HsA/giphy.gif',
   ],
 
   // Matrix rain settings
