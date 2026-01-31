@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd vite-frontend && npm install && npm run build",
+  "outputDirectory": "vite-frontend/dist",
+  "installCommand": "echo 'skip root install'"
+}
